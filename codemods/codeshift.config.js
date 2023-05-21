@@ -5,5 +5,7 @@ module.exports = {
   transforms: {
     "10.0.0": require("./10.0.0/transform"),
   },
-  presets: {},
+  presets: {
+    "reverse-identifiers": require("./reverse-identifiers/transform"),
+  },
 };
