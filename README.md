@@ -1,4 +1,4 @@
-# codeshift-community
+# Hypermod examples
 
 This project was bootstrapped with [CodeshiftCommunity 🚚](https://www.codeshiftcommunity.com/). Please see the [external packages guide](https://www.codeshiftcommunity.com/docs/external-packages) for more information on how to work with this repo.
 
