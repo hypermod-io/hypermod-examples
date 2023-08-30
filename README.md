@@ -6,7 +6,9 @@
 
 # Hypermod Examples
 
-This project was bootstrapped with [Hypermod](https://www.codeshiftcommunity.com/). Please see the [external packages guide](https://www.codeshiftcommunity.com/docs/external-packages) for more information on how to work with this repo.
+This project was bootstrapped with [Hypermod](https://www.codeshiftcommunity.com/). 
+
+Please see the [external packages guide](https://www.codeshiftcommunity.com/docs/external-packages) for more information on how to work with this repo.
 
 ## Scripts
 
