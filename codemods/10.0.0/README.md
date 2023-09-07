@@ -7,5 +7,5 @@ Codemods for codeshift-community@10.0.0
 var foo = 'foo';
 
 /* OUTPUT */
-let foo = 'foo';
+let bar = 'foo';
 ```
