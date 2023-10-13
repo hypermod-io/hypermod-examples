@@ -7,7 +7,7 @@
     "dev": "hypermod",
     "build": "tsc --build",
     "test": "jest --watch",
-    "validate": "hypermod validate ."
+    "validate": "yarn build && hypermod validate dist"
   },
   "dependencies": {
     "@hypermod/utils": "^0.4.1"
