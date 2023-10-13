@@ -1,19 +1,19 @@
-import { applyTransform } from "@codeshift/test-utils";
+import { applyTransform } from "@hypermod/utils";
 import * as transformer from "./transform";
 
-describe("codeshift-community@10.0.0 transform", () => {
+describe("hypermod-community@10.0.0 transform", () => {
   it("should transform correctly", async () => {
     const result = await applyTransform(
       transformer,
       `
-var foo = 'codeshift-community';
+var foo = 'hypermod-community';
 console.log(foo);
       `,
       { parser: "tsx" }
     );
 
     expect(result).toMatchInlineSnapshot(`
-      "var bar = 'codeshift-community';
+      "var bar = 'hypermod-community';
       console.log(bar);"
     `);
   });

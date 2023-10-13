@@ -1,7 +1,7 @@
 module.exports = {
   maintainers: [],
   targets: [],
-  description: "Codemods for codeshift-community",
+  description: "Example codemods for hypermod-community",
   transforms: {
     "10.0.0": require("./10.0.0/transform"),
   },

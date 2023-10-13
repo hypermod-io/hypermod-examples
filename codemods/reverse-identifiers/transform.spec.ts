@@ -1,19 +1,19 @@
-import { applyTransform } from "@codeshift/test-utils";
+import { applyTransform } from "@hypermod/utils";
 import * as transformer from "./transform";
 
-describe("codeshift-community#reverse-identifiers transform", () => {
+describe("hypermod-community#reverse-identifiers transform", () => {
   it("should transform correctly", async () => {
     const result = await applyTransform(
       transformer,
       `
-var foo = 'codeshift-community';
+var foo = 'hypermod-community';
 console.log(foo);
       `,
       { parser: "tsx" }
     );
 
     expect(result).toMatchInlineSnapshot(`
-      "var oof = 'codeshift-community';
+      "var oof = 'hypermod-community';
       elosnoc.gol(oof);"
     `);
   });
