@@ -9,10 +9,15 @@ on:
         description: "The deployment key to authenticate the request"
 jobs:
   receive_hypermod_event:
-    permissions: write-all
+    permissions: 
+      contents: write
+      pull-requests: write
+      actions: read
+      checks: read
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - name: Run Hypermod CLI
         uses: hypermod-io/action@v1
         with:
